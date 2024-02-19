@@ -1,0 +1,66 @@
+.table-data {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-head-name {
+  font-size: 12px;
+  color: #2c3333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 2px solid #f2f1eb;
+  height: 30px;
+}
+.table-icon {
+  color: #b4b4b3;
+  cursor: pointer;
+}
+.table-row {
+  justify-content: flex-start !important;
+  background-color: #f4f9f9;
+  padding: 20px 0px;
+}
+
+.non-border {
+  border-right: none;
+}
+
+.channel-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.table-value {
+  padding: 10px 0px;
+  border-bottom: 2px solid #f4f9f9;
+  justify-content: flex-start !important;
+}
+.data-status {
+  background-color: #e5f9bd;
+  border: 1px solid #38e54d;
+  color: #38e54d;
+  padding: 4px;
+}
+
+td {
+  padding: 0px 10px;
+  font-size: 12px;
+}
+
+.table-body {
+  border-right: 6px solid #888;
+  border-bottom: 2px solid #c0bfbf;
+}
+.order-no {
+  color: #2192ff;
+}
+
+.select-operations {
+  outline: none;
+  cursor: pointer;
+  height: 25px;
+  font-size: 12px;
+}

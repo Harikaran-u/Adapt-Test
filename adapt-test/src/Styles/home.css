@@ -1,0 +1,124 @@
+.home-main-container {
+  justify-content: flex-start !important;
+  background-color: #eeeeee;
+}
+.display-data-container {
+  width: 100%;
+  align-items: flex-start !important;
+  align-self: flex-start !important;
+}
+.selected-pages-container {
+  padding: 20px 4px;
+  width: 100%;
+}
+.pages-nav-container {
+  width: 100%;
+}
+.page-btn-title {
+  background-color: #fff !important;
+  border-radius: 4px;
+  padding: 4px;
+  color: #39a7ff !important;
+  width: 120px;
+}
+.settings-btn {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.close-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  color: #c6dce4 !important;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.display-data-table-container {
+  width: 100%;
+}
+.status-nav-container {
+  width: 80%;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.status {
+  color: #0f0f0f;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 30px;
+}
+.status:hover {
+  color: #39a7ff;
+}
+.selected-status {
+  color: #39a7ff;
+  border-bottom: 2px solid #39a7ff;
+}
+.table-container {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.table-action-btn {
+  width: 140px;
+  padding: 6px;
+  border-radius: 2px;
+  background-color: #fff !important;
+  border: 1px solid #c6dce4 !important;
+  justify-content: space-evenly !important;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.table-action-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  background-color: #d0d4ca !important;
+}
+
+.refresh-btn {
+  width: 100px;
+  background-color: #39a7ff !important;
+  border-radius: 2px;
+  color: #fff !important;
+  padding: 6px;
+  justify-content: space-evenly !important;
+}
+
+.pagination-container {
+  margin-top: 10px;
+  justify-content: flex-end !important;
+}
+
+.page-access-btn {
+  width: 30px;
+  padding: 6px;
+  border: 1px solid #d0d4ca !important;
+  font-size: 14px;
+  color: #c6dce4 !important;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.btn-num {
+  border: 1px solid #39a7ff !important;
+  color: #39a7ff !important;
+  background-color: #fff !important;
+}
+.page-selection-container {
+  height: 30px;
+  padding: 6px;
+  border: 1px solid #d0d4ca !important;
+  width: 80px;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.page-num-option {
+  padding: 6px;
+}

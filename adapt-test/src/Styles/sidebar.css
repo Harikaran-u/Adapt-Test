@@ -1,0 +1,30 @@
+.side-bar-container {
+  width: 280px;
+  align-items: flex-start !important;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.sidebar-btn {
+  font-size: 18px;
+  margin-top: 20px;
+  justify-content: flex-start !important;
+  background-color: #fff !important;
+  width: 100%;
+  padding: 10px;
+}
+
+.sidebar-btn-name {
+  margin-left: 20px;
+}
+
+.sidebar-btn:hover {
+  background-color: #c5fff8 !important;
+  color: #1640d6 !important;
+}
+
+.selected-menu {
+  background-color: #c5fff8 !important;
+  border-right: 4px solid #5fbdff !important;
+  color: #1640d6 !important;
+}
